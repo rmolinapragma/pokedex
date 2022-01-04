@@ -59,7 +59,7 @@ canvas {
   --color-grey: #999999;
   --color-grey-lightest:#DBDBDB;
   --font-family-primary: 'Lato', sans-serif;
-  --color-primary: #FE361E;
+  --color-primary: #E3350D;
   --color-secondary: #FDD008;
   --initial-font-size: 1.5rem;
   --color-section-background: #ECEEEF;
@@ -78,13 +78,47 @@ body {
 
 /* LAYOUTS */
 .container {
-  max-width: 112rem;
-  margin: auto;
+
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
+ .max{
+   margin: 0 auto;
+   max-width: 112rem ;
+ }
+
 .main {
   flex: 1;
+}
+
+.main,
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  padding: .5em;
+  background-color: var(--color-primary);
+
+}
+
+.heading {
+  color: white;
+  font-size: 1.5em;
+}
+
+.logo {
+  max-width:  4rem;
+}
+
+.logo img{
+  width: 100%;
+}
+
+.pokemon {
+  width: 85%;
 }
