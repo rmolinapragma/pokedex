@@ -8,6 +8,11 @@
   <meta name="description" content="This is a static website about pokedex application" />
   <meta name="author" content="Roberto Molina" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="index.css" />
   <link rel="shortcut icon" href="./assets/images/favicon.ico" />
   <title>Pokedex</title>
@@ -20,27 +25,80 @@
         <img src="./assets/images/pokedex_icon.png" />
       </figure>
       <h1 class="heading">POKÉDEX_</h1>
+
     </header>
     <main class="main">
       <div class="max">
         <div class="pokemon">
           <div class="left">
             <div class="pokemon__heading">
-              <h2 class="pokemon__name">CHARIZAD</h2>
-              <figure class="pokemon__image">
-                <img src="" alt="charizad" />
-              </figure>
-            </div>
-          </div>
-          <div class="right">
-            <div class="pokemon__desc">
+              <h2 class="pokemon__name">CHARIZARD</h2>
 
             </div>
+            <figure class="pokemon__image">
+              <img src="./assets/images/charizard.png" alt="charizard" />
+            </figure>
+          </div>
+          <div class="right">
+            <ul class="pokemon__desc">
+              <div class="pokemon__detail">
+                <span>NO.</span>
+                <span>006</span>
+              </div>
+              <div class="pokemon__detail">
+                <span>LEVEL</span>
+                <span>100</span>
+              </div>
+              <div class="pokemon__detail">
+                <span>TYPE</span>
+                <span>FIRE</span>
+              </div>
+              <div class="pokemon__detail">
+                <span>HABILITY</span>
+                <span>FLAMES</span>
+              </div>
+              <div class="pokemon__detail">
+                <span>HEIGHT</span>
+                <span>1,7m</span>
+              </div>
+              <div class="pokemon__detail">
+                <span>WEIGHT</span>
+                <span>90,5 Kg</span>
+              </div>
+            </ul>
           </div>
         </div>
       </div>
     </main>
-    <footer class="footer">footer</footer>
+    <footer class="footer">
+      <div class="max">
+        <div class="others">
+          <h3 class="others__heading">OTHERS</h3>
+          <div class="others__grid">
+            <div class="others__item others__item--selected">
+              <figure class="others__picture">
+                <img src="./assets/images/charizard.png" alt="" />
+              </figure>
+            </div>
+            <div class="others__item">
+              <figure class="others__picture">
+                <img src="./assets/images/squirtle.png" alt="" />
+              </figure>
+            </div>
+            <div class="others__item">
+              <figure class="others__picture">
+                <img src="./assets/images/blastoise.png" alt="" />
+              </figure>
+            </div>
+            <div class="others__item">
+              <figure class="others__picture">
+                <img src="./assets/images/caterpie.png" alt="" />
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </div>
 </body>
 
